@@ -1,0 +1,355 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Assignment3_SignalR\\Assignment3_SignalR.csproj": {}
+  },
+  "projects": {
+    "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Assignment3_SignalR\\Assignment3_SignalR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Assignment3_SignalR\\Assignment3_SignalR.csproj",
+        "projectName": "Assignment3_SignalR",
+        "projectPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Assignment3_SignalR\\Assignment3_SignalR.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Assignment3_SignalR\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\BusinessObjects\\BusinessObjects.csproj"
+              },
+              "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Services\\Services.csproj": {
+                "projectPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\BusinessObjects\\BusinessObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\BusinessObjects\\BusinessObjects.csproj",
+        "projectName": "BusinessObjects",
+        "projectPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\BusinessObjects\\BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\BusinessObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\DataAccessObjects\\DataAccessObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\DataAccessObjects\\DataAccessObjects.csproj",
+        "projectName": "DataAccessObjects",
+        "projectPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\DataAccessObjects\\DataAccessObjects.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\DataAccessObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\BusinessObjects\\BusinessObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Repositories\\Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Repositories\\Repositories.csproj",
+        "projectName": "Repositories",
+        "projectPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\BusinessObjects\\BusinessObjects.csproj"
+              },
+              "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\DataAccessObjects\\DataAccessObjects.csproj": {
+                "projectPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\DataAccessObjects\\DataAccessObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\BusinessObjects\\BusinessObjects.csproj"
+              },
+              "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Repositories\\Repositories.csproj": {
+                "projectPath": "D:\\PhatBaka\\Documents\\MyCode\\CSharp\\NguyenQuiPhat_Assignment_Block3\\Repositories\\Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
